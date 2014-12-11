@@ -7,7 +7,9 @@
 
 ```
 GET https://api.i-news.kz/feed/get-all?appId=***&appKey=***
+```
 
+```
 {
     "0" : {
         "id" : 1,
@@ -24,7 +26,9 @@ GET https://api.i-news.kz/feed/get-all?appId=***&appKey=***
 
 ```
 GET https://api.i-news.kz/feed/get-one?id=1&appId=***&appKey=***
+```
 
+```
 {
     "id" : 1,
     "title" : "Новости пресс-служб",
@@ -38,7 +42,9 @@ GET https://api.i-news.kz/feed/get-one?id=1&appId=***&appKey=***
 
 ```
 GET https://api.i-news.kz/feed/get-categories?appId=***&appKey=***
+```
 
+```
 {
     "1" : "Казахстанские новостные ленты",
     "2" : "Международные новостные ленты",

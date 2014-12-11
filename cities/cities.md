@@ -7,7 +7,9 @@
 
 ```
 GET https://api.i-news.kz/city/get-all?appId=***&appKey=***
+```
 
+```
 [
     {"id" : "36870", "title" : "Алматы"},
     …
@@ -19,8 +21,9 @@ GET https://api.i-news.kz/city/get-all?appId=***&appKey=***
 
 ```
 GET https://api.i-news.kz/city/get-many?ids[0]36870=&ids[1]=35188&appId=***&appKey=***
+```
 
-
+```
 [
     {"id" : "36870", "title" : "Алматы"},
     {"id" : "35188", "title" : "Астана"}
@@ -33,6 +36,8 @@ GET https://api.i-news.kz/city/get-many?ids[0]36870=&ids[1]=35188&appId=***&appK
 
 ```
 GET https://api.i-news.kz/city/get-one?id=36870&appId=***&appKey=***
+```
 
+```
 {"id" : "36870", "title" : "Алматы"}
 ```

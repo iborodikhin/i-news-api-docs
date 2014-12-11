@@ -7,7 +7,9 @@
 
 ```
 GET https://api.i-news.kz/news/get-one?id=7845511&appId=***&appKey=***
+```
 
+```
 {
     "id" : "7845511",
     "url" : "*ссылка на первоисточник*",
@@ -29,7 +31,9 @@ GET https://api.i-news.kz/news/get-one?id=7845511&appId=***&appKey=***
 
 ```
 GET https://api.i-news.kz/news/get-many?ids[0]=7845511&ids[1]=7846683&appId=***&appKey=***
+```
 
+```
 {
     "7845511" : {
         "id" : "7845511",
@@ -50,7 +54,9 @@ GET https://api.i-news.kz/news/get-many?ids[0]=7845511&ids[1]=7846683&appId=***&
 
 ```
 GET https://api.i-news.kz/news/keywords?id=7845511&limit=5&appId=***&appKey=***
+```
 
+```
 {"1" : "состав", "2" : "команды", "12" : "боксеры", "18" : "серии", "26" : "состава"}
 ```
 
@@ -60,7 +66,9 @@ GET https://api.i-news.kz/news/keywords?id=7845511&limit=5&appId=***&appKey=***
 
 ```
 GET https://api.i-news.kz/news/more-like-this?id=7845511&limit=5&appId=***&appKey=***
+```
 
+```
 {
     "limit" : 0,
     "offset" : 0,
@@ -83,7 +91,9 @@ GET https://api.i-news.kz/news/more-like-this?id=7845511&limit=5&appId=***&appKe
 
 ```
 GET https://api.i-news.kz/news/search?query[cat_id]=1&text=Назарбаев&limit=5&appId=***&appKey=***
+```
 
+```
 {
     "limit" : 0,
     "offset" : 0,
@@ -104,7 +114,9 @@ GET https://api.i-news.kz/news/search?query[cat_id]=1&text=Назарбаев&li
 
 ```
 GET https://api.i-news.kz/news/search-and-group-by?query[range][tstamp][gte]=2014-12-07T08:57:06+06:00&group_by=feed&appId=***&appKey=***
+```
 
+```
 {
     "limit" : 0,
     "offset" : 0,
@@ -126,7 +138,9 @@ GET https://api.i-news.kz/news/search-and-group-by?query[range][tstamp][gte]=201
 
 ```
 GET https://api.i-news.kz/news/remove?id=7845511&appId=***&appKey=***
+```
 
+```
 {
     "status" : "ok"
 }
@@ -138,8 +152,11 @@ GET https://api.i-news.kz/news/remove?id=7845511&appId=***&appKey=***
 
 ```
 POST https://api.i-news.kz/news/save?appId=***&appKey=***
-id=7845511&title=*заголовок*&…
 
+id=7845511&title=*заголовок*&…
+```
+
+```
 {
     "status" : "ok"
 }

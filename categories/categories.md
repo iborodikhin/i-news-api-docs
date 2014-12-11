@@ -7,7 +7,9 @@
 
 ```
 GET https://api.i-news.kz/category/get-all?appId=***&appKey=***
+```
 
+```
 [
     {"id" : "1", "title" : "Политика", "fullTitle" : "Новости политики"},
     …
@@ -20,7 +22,9 @@ GET https://api.i-news.kz/category/get-all?appId=***&appKey=***
 
 ```
 GET https://api.i-news.kz/category/get-one?id=1&appId=***&appKey=***
+```
 
+```
 {
     "id" : "1", "title" : "Политика", "fullTitle" : "Новости политики"
 }

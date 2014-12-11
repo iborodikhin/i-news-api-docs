@@ -7,7 +7,9 @@
 
 ```
 GET https://api.i-news.kz/comment/get-all?newsId=7842053&appId=***&appKey=***
+```
 
+```
 [
     {"id" : "14582", "newsId" : "7842053", "name" : "Имя автора", "email" : "Email автора", "text" : "Текст комментария", "timestamp" : "1418045822"},
     …
@@ -20,7 +22,9 @@ GET https://api.i-news.kz/comment/get-all?newsId=7842053&appId=***&appKey=***
 
 ```
 GET https://api.i-news.kz/comment/get-many?ids[0]=14582&ids[1]=14586&appId=***&appKey=***
+```
 
+```
 [
     {"id" : "14582", "newsId" : "7842053", "name" : "Имя автора", "email" : "Email автора", "text" : "Текст комментария", "timestamp" : "1418045822"},
     {"id" : "14586", "newsId" : "7842053", "name" : "Имя автора", "email" : "Email автора", "text" : "Текст комментария", "timestamp" : "1418051944"},
@@ -34,7 +38,9 @@ GET https://api.i-news.kz/comment/get-many?ids[0]=14582&ids[1]=14586&appId=***&a
 
 ```
 GET https://api.i-news.kz/comment/get-one?id=14582&appId=***&appKey=***
+```
 
+```
 {"id" : "14582", "newsId" : "7842053", "name" : "Имя автора", "email" : "Email автора", "text" : "Текст комментария", "timestamp" : "1418045822"}
 ```
 
@@ -45,7 +51,9 @@ GET https://api.i-news.kz/comment/get-one?id=14582&appId=***&appKey=***
 ```
 POST https://api.i-news.kz/comment/save?appId=***&appKey=***
 id=7845511&name=*имя автора*&…
+```
 
+```
 {
     "status" : "ok"
 }
@@ -58,7 +66,9 @@ id=7845511&name=*имя автора*&…
 
 ```
 GET https://api.i-news.kz/comment/search?query[news_id]=7842053&limit=5&offset=10&order_by[0][tstamp]=desc&appId=***&appKey=***
+```
 
+```
 [
     {"id" : "14582", "newsId" : "7842053", "name" : "Имя автора", "email" : "Email автора", "text" : "Текст комментария", "timestamp" : "1418045822"},
     …
@@ -74,7 +84,9 @@ GET https://api.i-news.kz/comment/search?query[news_id]=7842053&limit=5&offset=1
 
 ```
 GET https://api.i-news.kz/comment/unsubscribe?key=***&appId=***&appKey=***
+```
 
+```
 {
     "status" : "ok"
 }
@@ -86,7 +98,9 @@ GET https://api.i-news.kz/comment/unsubscribe?key=***&appId=***&appKey=***
 
 ```
 GET https://api.i-news.kz/comment/remove?id=14582&appId=***&appKey=***
+```
 
+```
 {
     "status" : "ok"
 }
@@ -98,7 +112,9 @@ GET https://api.i-news.kz/comment/remove?id=14582&appId=***&appKey=***
 
 ```
 GET https://api.i-news.kz/comment/ban?id=14582&appId=***&appKey=***
+```
 
+```
 {
     "status" : "ok"
 }
@@ -110,7 +126,9 @@ GET https://api.i-news.kz/comment/ban?id=14582&appId=***&appKey=***
 
 ```
 GET https://api.i-news.kz/comment/set-spam?id=14582&appId=***&appKey=***
+```
 
+```
 {
     "status" : "ok"
 }
