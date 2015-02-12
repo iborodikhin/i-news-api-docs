@@ -18,6 +18,7 @@ GET https://api.i-news.kz/city/get-all?appId=***&appKey=***
 
 Получение нескольких городов по списку id.
 -----------------------------------------
+Уровень доступа — **public**
 
 ```
 GET https://api.i-news.kz/city/get-many?ids[0]36870=&ids[1]=35188&appId=***&appKey=***
